@@ -1,18 +1,25 @@
+body {
+	font-family: "Montserrat";
+}
 body .navbar-fixed-top {
 	background-color: #021C1E;
 }
+body .intro {
+	height: 486px;
+}
 body .about {
 	background-color: #6fb98f;
-	font-family: "Montserrat";
-	color : white;
+	color: white;
+	height: 486px;
+	font-size: 2.5rem;
 }
 body .skills {
 	background-color: #2c7873;
 	color : white;
+	height: 486px;
 }
 body .PP1 {
 	background-color: #004445;
-	font-family: "Montserrat";
 	color : white;
 }
 div .HypeCity {
@@ -20,7 +27,7 @@ div .HypeCity {
 	text-align: center;
 }
 footer .footer-above {
-  padding-top: 50px;
+  padding-top: 25px;
   background-color: #2C3E50;
 }
 footer .footer-col {
@@ -34,15 +41,10 @@ footer .footer-below {
   display: table;
   width: 100%;
   height: auto;
-  padding: 100px 0;
+  padding: 50px 0;
   text-align: center;
   color: black;
-  background: url(../img/hypecity.jpg) no-repeat bottom center scroll;
-  background-color: black;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
+  background-color: #c0ded9;
 }
 .intro .intro-body {
   display: table-cell;
@@ -54,7 +56,6 @@ footer .footer-below {
 .intro .intro-body .intro-text {
   font-size: 18px;
 }
-
 .row {
 	margin-right: 0px;
 	margin-left: 0px;
